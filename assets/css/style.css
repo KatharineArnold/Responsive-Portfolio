@@ -2,6 +2,14 @@
     box-sizing: border-box;
     
 }
+body {
+    margin: 0px;
+}
+
+
+/* .center{
+    text-align: center;
+} */
 
 h1, h2, h3{
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
@@ -25,7 +33,7 @@ h1, h2, h3{
     margin-left: 5vh; 
     margin-right: 50vh;
     margin-bottom:60vh;
-    padding: 40px;
+    padding: 20px;
     margin-top: 60px;
     border: 2px solid #dddddd;
 }
@@ -39,8 +47,8 @@ h1, h2, h3{
 
 
 .nav-container{
-    max-width: 960px;
-    height: 90px;
+    /* max-width: 960px; */
+    height: 85px;
     /* margin-left: auto; */
     margin-right: auto;
 }
@@ -55,8 +63,8 @@ h1, h2, h3{
 
 .box{
     
-    height: 230px;
-    width: 30%;
+    height: 100%;
+    width: 35%;
     display: inline-block;
     position: relative;
     margin: 30px;
@@ -65,7 +73,9 @@ h1, h2, h3{
 ul {
     list-style-type: none;
     float: right;
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
    
 }
 
@@ -107,6 +117,10 @@ h1{
     color: white;
     padding: 15px;
     float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 96%;
+    padding-top: 20px;
      
 }
 
@@ -216,22 +230,65 @@ form{
 
   }
  
-     /* @media screen and (max-width: 980px) {
-        */
+     @media screen and (max-width: 980px) {
+        .row{
+            margin-right: -100px;
+        }
+     }
 
       
 
       
       @media screen and (max-width: 768px) {
-    
+        .white{
+            margin-right: 5vh;
+        }
+        .row{
+            margin-right: -50px;
+        }
       }
 
       
       @media screen and (max-width: 640px) {
+        .row{
+            margin-right: auto;
+        }
+
+
+        
+    .left{
+        float: none;
+        height: 100%;
+        width: 100%;
+        padding-right: 0px;
+        }
+
+        
         h1{
             width: 100%;
-           
+            margin-bottom: 15px; 
         }
+        .box{
+            width: 100%;
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+        ul{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        
+        .card-description{
+            height: 65px;
+            top: 90%;
+            text-align: center; 
+            line-height: 9px;
+            font-size: 4vw;  
+
+        }
+
+
        .name{
            margin-left: 0%;
            text-align: center;
@@ -243,12 +300,10 @@ form{
         }
         ul {
             float: none;
-            
-            padding-right: 55px; 
-            text-align: center;
-            margin-right: auto;
-            margin-left: auto;
-            
+            padding-bottom: 20px;
+            padding-right: 70px; 
+            padding-left: 70px; 
+            text-align: center;  
         }   
         .white{
            
@@ -257,9 +312,6 @@ form{
             
         } 
         
-        .nav-container{
-           
-           /* padding-bottom: 100px; */
         }
         
       }
