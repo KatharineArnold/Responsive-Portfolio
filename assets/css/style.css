@@ -15,6 +15,8 @@ h1, h2, h3{
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 }
 
+
+
 .index-main, .portfolio-main, .contact-main{   
     background-image: url("../images/light-grey-terrazzo.png");
     height: 100%;
@@ -80,18 +82,18 @@ ul {
 }
 
 
-a:link{
+.li a:link{
     color:  #777777;
     text-decoration: none;
     
 }
 
-a:visited {
+.li a:visited {
     text-decoration: none;
     color:  #777777;
 }
 
-a:hover{
+.li a:hover{
     color: #4aaaa5;
     text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333;
 }
@@ -208,6 +210,25 @@ form{
       font-size: 1.5vw;
   }
 
+
+.card-description a:link{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.card-description a:visited {
+    text-decoration: none;
+    color:  white;
+}
+
+.card-description a:hover{
+    color: white;
+    text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333;
+}
+  
+  
+  
   .message input{
     display: block;
     width: 100%;
